@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39bdc419-eec2-49a1-84be-fd184d4df24e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/concurrency/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/concurrency/MergeSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/semaphores/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/semaphores/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/semaphores/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/lambdas/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/lambdas/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +40,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Client.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.com.bms.lambdas.Client.executor": "Run",
+    "Application.com.bms.semaphores.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -62,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.bms.semaphores.Client">
+  <component name="RunManager" selected="Application.com.bms.lambdas.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bms.concurrency.Client" />
       <module name="JavaLLD" />
@@ -89,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.bms.lambdas.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bms.lambdas.Client" />
+      <module name="JavaLLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bms.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.bms.semaphores.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bms.semaphores.Client" />
       <module name="JavaLLD" />
@@ -104,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.bms.lambdas.Client" />
         <item itemvalue="Application.com.bms.semaphores.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
@@ -126,12 +133,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714833577997</updated>
-      <workItem from="1714833579140" duration="722000" />
+      <workItem from="1714833579140" duration="4494000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
