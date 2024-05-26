@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39bdc419-eec2-49a1-84be-fd184d4df24e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bms/concurrency/NumberPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2g0TcmarpzxIRulC4rRMMq7F6fT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,31 +33,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Client.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NumberPrinter.executor": "Run",
-    "Application.PrintNumber.executor": "Run",
-    "Application.com.bms.lambdas.Client.executor": "Run",
-    "Application.com.bms.lambdas.Main.executor": "Run",
-    "Application.com.bms.semaphores.Client.executor": "Run",
-    "Application.com.bms.streams.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.bms.lambdas.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.bms.lambdas.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.bms.semaphores.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.bms.streams.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.NumberPrinter">
+}</component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bms.prototypeandRegistryPattern.Client" />
+      <module name="JavaLLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bms.prototypeandRegistryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bms.concurrency.NumberPrinter" />
       <module name="JavaLLD" />
@@ -78,19 +90,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bms.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.bms.lambdas.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bms.lambdas.Client" />
-      <module name="JavaLLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bms.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.NumberPrinter" />
         <item itemvalue="Application.PrintNumber" />
         <item itemvalue="Application.com.bms.streams.Main" />
         <item itemvalue="Application.com.bms.lambdas.Main" />
-        <item itemvalue="Application.com.bms.lambdas.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714833577997</updated>
-      <workItem from="1714833579140" duration="12117000" />
+      <workItem from="1714833579140" duration="21719000" />
     </task>
     <servers />
   </component>
